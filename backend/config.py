@@ -1,11 +1,11 @@
 import os
 
-DEEPSEEK_API_KEY = "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"
+DEEPSEEK_API_KEY = "sk-or-v1-5a12ehhh264564de56f8ec3d953d39c5c10ed7705afedcbb2bc1b402f871726d059"
 DEEPSEEK_MODEL = "deepseek/deepseek-r1-0528-qwen3-8b:free"
 DEEPSEEK_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN = os.getenv("7792858670:AAFxeSXQejyU8kaGVFpN4IXb2jIryeVu4go", "7792858670:AAFxeSXQejyU8kaGVFpN4IXb2jIryeVu4go")  # Get from @BotFather
+TELEGRAM_BOT_TOKEN = os.getenv("7792858670:AAFxeSXQejgjkyU8kaGVFpN4IXb2jIryeVu4go", "7792858670:AAFxeSXQejyU8kaGVFpN4IXb2jIryeVu4go")  # Get from @BotFather
 ADMIN_USER_IDS = [int(id) for id in os.getenv("6148278186", "6148278186").split(",") if id]  # Admin Telegram IDs
 
 # Аналитический промпт для обработки вакансий
